@@ -13,6 +13,13 @@
 		6C2B413129784870005ED22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B413029784870005ED22C /* ViewController.swift */; };
 		6C2B413629784874005ED22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B413529784874005ED22C /* Assets.xcassets */; };
 		6C2B413929784874005ED22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B413729784874005ED22C /* LaunchScreen.storyboard */; };
+		7A22662C29784D3C0099240B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662B29784D3C0099240B /* MainViewController.swift */; };
+		7A22662E29784D520099240B /* customCafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662D29784D520099240B /* customCafeView.swift */; };
+		7A22663029784D700099240B /* setPlaceHolderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662F29784D700099240B /* setPlaceHolderColor.swift */; };
+		7A22663229784D7E0099240B /* addLeftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663129784D7E0099240B /* addLeftImage.swift */; };
+		7A22663429784D8E0099240B /* insetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663329784D8E0099240B /* insetTextField.swift */; };
+		7A22663629784D9C0099240B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663529784D9C0099240B /* UIColor.swift */; };
+		7A22663829784DA60099240B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663729784DA60099240B /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		6C2B413529784874005ED22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2B413829784874005ED22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2B413A29784874005ED22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A22662B29784D3C0099240B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7A22662D29784D520099240B /* customCafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCafeView.swift; sourceTree = "<group>"; };
+		7A22662F29784D700099240B /* setPlaceHolderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPlaceHolderColor.swift; sourceTree = "<group>"; };
+		7A22663129784D7E0099240B /* addLeftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addLeftImage.swift; sourceTree = "<group>"; };
+		7A22663329784D8E0099240B /* insetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insetTextField.swift; sourceTree = "<group>"; };
+		7A22663529784D9C0099240B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7A22663729784DA60099240B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A6102A1FE45886E777D5AA82 /* Pods-FinalBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalBase.debug.xcconfig"; path = "Target Support Files/Pods-FinalBase/Pods-FinalBase.debug.xcconfig"; sourceTree = "<group>"; };
 		AD868C4CF681C796278F6521 /* Pods-FinalBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalBase.release.xcconfig"; path = "Target Support Files/Pods-FinalBase/Pods-FinalBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +81,13 @@
 				6C2B413529784874005ED22C /* Assets.xcassets */,
 				6C2B413729784874005ED22C /* LaunchScreen.storyboard */,
 				6C2B413A29784874005ED22C /* Info.plist */,
+				7A22662B29784D3C0099240B /* MainViewController.swift */,
+				7A22662D29784D520099240B /* customCafeView.swift */,
+				7A22662F29784D700099240B /* setPlaceHolderColor.swift */,
+				7A22663129784D7E0099240B /* addLeftImage.swift */,
+				7A22663329784D8E0099240B /* insetTextField.swift */,
+				7A22663529784D9C0099240B /* UIColor.swift */,
+				7A22663729784DA60099240B /* File.swift */,
 			);
 			path = FinalBase;
 			sourceTree = "<group>";
@@ -77,7 +98,6 @@
 				A6102A1FE45886E777D5AA82 /* Pods-FinalBase.debug.xcconfig */,
 				AD868C4CF681C796278F6521 /* Pods-FinalBase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,9 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A22663229784D7E0099240B /* addLeftImage.swift in Sources */,
 				6C2B413129784870005ED22C /* ViewController.swift in Sources */,
 				6C2B412D29784870005ED22C /* AppDelegate.swift in Sources */,
+				7A22663429784D8E0099240B /* insetTextField.swift in Sources */,
+				7A22663629784D9C0099240B /* UIColor.swift in Sources */,
+				7A22663829784DA60099240B /* File.swift in Sources */,
+				7A22663029784D700099240B /* setPlaceHolderColor.swift in Sources */,
+				7A22662E29784D520099240B /* customCafeView.swift in Sources */,
 				6C2B412F29784870005ED22C /* SceneDelegate.swift in Sources */,
+				7A22662C29784D3C0099240B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
