@@ -205,7 +205,7 @@ class InfoViewController: UIViewController{
     //weight = 굵기 , scale = 크기
     //뒤로가기
     let back = UIImageView(image: UIImage(systemName: "chevron.backward",
-                                          withConfiguration: UIImage.SymbolConfiguration(pointSize: 21, weight: .regular, scale: .medium)))
+                                          withConfiguration: UIImage.SymbolConfiguration(pointSize: 21, weight: .regular, scale: .medium))?.withTintColor(UIColor(red: 0.851, green: 0.851, blue: 0.851, alpha: 1), renderingMode: .alwaysOriginal))
 
     
     let average_review: UILabel = {
@@ -261,7 +261,12 @@ class InfoViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.addSubview(back)
+        view.bringSubviewToFront(back)
+        NSLayoutConstraint.activate([
+            back.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 33),
+            back.topAnchor.constraint(equalTo: view.topAnchor, constant: -47)
+        ])
         view.addSubview(imageView1)
         NSLayoutConstraint.activate([
             imageView1.topAnchor.constraint(equalTo: view.topAnchor),
@@ -398,11 +403,6 @@ class InfoViewController: UIViewController{
         }
         
         
-        view.addSubview(back)
-        NSLayoutConstraint.activate([
-            back.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 33),
-            back.topAnchor.constraint(equalTo: view.topAnchor, constant: -47)
-        ])
 
         review.addSubview(reviewContainerView)
         reviewContainerView.addSubview(reviewTableView)
