@@ -18,15 +18,23 @@
 		1F41D5BB15993595DAE6B8EE /* Pods_FinalBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFC41D74739541C613943 /* Pods_FinalBase.framework */; };
 		6C2B412D29784870005ED22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B412C29784870005ED22C /* AppDelegate.swift */; };
 		6C2B412F29784870005ED22C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B412E29784870005ED22C /* SceneDelegate.swift */; };
-		6C2B413129784870005ED22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B413029784870005ED22C /* ViewController.swift */; };
+		6C2B413129784870005ED22C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B413029784870005ED22C /* InfoViewController.swift */; };
 		6C2B413629784874005ED22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B413529784874005ED22C /* Assets.xcassets */; };
 		6C2B413929784874005ED22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B413729784874005ED22C /* LaunchScreen.storyboard */; };
+		6C2B414929784CF6005ED22C /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414229784CF6005ED22C /* BaseTableViewCell.swift */; };
+		6C2B414A29784CF6005ED22C /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414329784CF6005ED22C /* Cafe.swift */; };
+		6C2B414B29784CF6005ED22C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414429784CF6005ED22C /* MyTableViewCell.swift */; };
+		6C2B414C29784CF6005ED22C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414629784CF6005ED22C /* Review.swift */; };
+		6C2B414D29784CF6005ED22C /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414729784CF6005ED22C /* ReviewTableViewCell.swift */; };
+		6C2B414E29784CF6005ED22C /* ReviewBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B414829784CF6005ED22C /* ReviewBaseTableViewCell.swift */; };
+
 		7A22662C29784D3C0099240B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662B29784D3C0099240B /* MainViewController.swift */; };
 		7A22662E29784D520099240B /* customCafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662D29784D520099240B /* customCafeView.swift */; };
 		7A22663029784D700099240B /* setPlaceHolderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22662F29784D700099240B /* setPlaceHolderColor.swift */; };
 		7A22663229784D7E0099240B /* addLeftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663129784D7E0099240B /* addLeftImage.swift */; };
 		7A22663429784D8E0099240B /* insetTextField_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663329784D8E0099240B /* insetTextField_1.swift */; };
 		7A22663829784DA60099240B /* collectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22663729784DA60099240B /* collectionviewCell.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,16 +50,25 @@
 		6C2B412929784870005ED22C /* FinalBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2B412C29784870005ED22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C2B412E29784870005ED22C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C2B413029784870005ED22C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C2B413029784870005ED22C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		6C2B413529784874005ED22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2B413829784874005ED22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2B413A29784874005ED22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		6C2B414229784CF6005ED22C /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		6C2B414329784CF6005ED22C /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		6C2B414429784CF6005ED22C /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		6C2B414629784CF6005ED22C /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		6C2B414729784CF6005ED22C /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		6C2B414829784CF6005ED22C /* ReviewBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewBaseTableViewCell.swift; sourceTree = "<group>"; };
+
 		7A22662B29784D3C0099240B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7A22662D29784D520099240B /* customCafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCafeView.swift; sourceTree = "<group>"; };
 		7A22662F29784D700099240B /* setPlaceHolderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPlaceHolderColor.swift; sourceTree = "<group>"; };
 		7A22663129784D7E0099240B /* addLeftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addLeftImage.swift; sourceTree = "<group>"; };
 		7A22663329784D8E0099240B /* insetTextField_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insetTextField_1.swift; sourceTree = "<group>"; };
 		7A22663729784DA60099240B /* collectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionviewCell.swift; sourceTree = "<group>"; };
+
 		A6102A1FE45886E777D5AA82 /* Pods-FinalBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalBase.debug.xcconfig"; path = "Target Support Files/Pods-FinalBase/Pods-FinalBase.debug.xcconfig"; sourceTree = "<group>"; };
 		AD868C4CF681C796278F6521 /* Pods-FinalBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalBase.release.xcconfig"; path = "Target Support Files/Pods-FinalBase/Pods-FinalBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +106,12 @@
 		6C2B412B29784870005ED22C /* FinalBase */ = {
 			isa = PBXGroup;
 			children = (
+				6C2B414029784CF6005ED22C /* SERA */,
 				6C2B412C29784870005ED22C /* AppDelegate.swift */,
 				6C2B412E29784870005ED22C /* SceneDelegate.swift */,
+
+				6C2B413029784870005ED22C /* InfoViewController.swift */,
+
 				0156267329784D1A00D038D4 /* LoginViewController.swift */,
 				0156267529784D2000D038D4 /* UIColor+Extension.swift */,
 				0156267729784D2400D038D4 /* InsetTextField.swift */,
@@ -100,6 +121,7 @@
 				0156267D29784D3800D038D4 /* MyPageViewController.swift */,
 				0156267F29784D3D00D038D4 /* MoreViewController.swift */,
 				0156268129784D4100D038D4 /* CustomCell.swift */,
+
 				6C2B413529784874005ED22C /* Assets.xcassets */,
 				6C2B413729784874005ED22C /* LaunchScreen.storyboard */,
 				6C2B413A29784874005ED22C /* Info.plist */,
@@ -111,6 +133,35 @@
 				7A22663729784DA60099240B /* collectionviewCell.swift */,
 			);
 			path = FinalBase;
+			sourceTree = "<group>";
+		};
+		6C2B414029784CF6005ED22C /* SERA */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B414129784CF6005ED22C /* Information */,
+				6C2B414529784CF6005ED22C /* Review */,
+			);
+			path = SERA;
+			sourceTree = "<group>";
+		};
+		6C2B414129784CF6005ED22C /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B414229784CF6005ED22C /* BaseTableViewCell.swift */,
+				6C2B414329784CF6005ED22C /* Cafe.swift */,
+				6C2B414429784CF6005ED22C /* MyTableViewCell.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		6C2B414529784CF6005ED22C /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B414629784CF6005ED22C /* Review.swift */,
+				6C2B414729784CF6005ED22C /* ReviewTableViewCell.swift */,
+				6C2B414829784CF6005ED22C /* ReviewBaseTableViewCell.swift */,
+			);
+			path = Review;
 			sourceTree = "<group>";
 		};
 		B8DA74DF3C8028990D902B8B /* Pods */ = {
@@ -244,6 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				6C2B414929784CF6005ED22C /* BaseTableViewCell.swift in Sources */,
+				6C2B414D29784CF6005ED22C /* ReviewTableViewCell.swift in Sources */,
+				6C2B413129784870005ED22C /* InfoViewController.swift in Sources */,
+				6C2B414C29784CF6005ED22C /* Review.swift in Sources */,
+				6C2B412D29784870005ED22C /* AppDelegate.swift in Sources */,
+				6C2B414A29784CF6005ED22C /* Cafe.swift in Sources */,
+				6C2B414E29784CF6005ED22C /* ReviewBaseTableViewCell.swift in Sources */,
+				6C2B412F29784870005ED22C /* SceneDelegate.swift in Sources */,
+				6C2B414B29784CF6005ED22C /* MyTableViewCell.swift in Sources */,
+
 				7A22663229784D7E0099240B /* addLeftImage.swift in Sources */,
 				6C2B413129784870005ED22C /* ViewController.swift in Sources */,
 				6C2B412D29784870005ED22C /* AppDelegate.swift in Sources */,
@@ -264,6 +326,7 @@
 				0156267629784D2000D038D4 /* UIColor+Extension.swift in Sources */,
 				0156267C29784D3400D038D4 /* TapBarViewController.swift in Sources */,
 				0156267829784D2400D038D4 /* InsetTextField.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
