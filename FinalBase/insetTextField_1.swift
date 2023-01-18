@@ -12,7 +12,8 @@ import Foundation
 
 import UIKit
 
-class InsetTextField : UITextField {
+class InsetTextField_1 : UITextField {
+    
     var insetX: CGFloat = 0 {
         didSet {
             layoutIfNeeded()
@@ -30,7 +31,27 @@ class InsetTextField : UITextField {
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
+        
         return bounds.insetBy(dx: insetX, dy:insetY)
     }
     
+    required override public init(frame: CGRect){
+        
+        super.init(frame: frame)
+    }
+    
+    required public init?(coder: NSCoder){
+        
+        super.init(coder: coder)
+    }
+    
+    override func leftViewRect(forBounds bounds: CGRect) -> CGRect {
+        
+        var textRect = super.leftViewRect(forBounds: bounds)
+        
+        textRect.origin.x += 18
+        
+        return textRect
+        
+    }
 }

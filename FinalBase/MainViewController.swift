@@ -83,9 +83,9 @@ class MainViewController: UIViewController {
         
     }()
     
-    private let searchTextfield: InsetTextField = {
+    private let searchTextfield: InsetTextField_1 = {
         
-        let textField = InsetTextField();
+        let textField = InsetTextField_1();
         
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "search"
