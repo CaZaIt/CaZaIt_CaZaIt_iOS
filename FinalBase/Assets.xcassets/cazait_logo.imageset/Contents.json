@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "로고-4.png",
+      "filename" : "cazait_logox1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "로고-5.png",
+      "filename" : "cazait_logox2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "로고-6.png",
+      "filename" : "cazait_logox3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
